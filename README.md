@@ -1,4 +1,4 @@
-wishDapp
+Wish Portal Dapp
 ==================
 
 This [React] app was initialized with [create-near-app]
