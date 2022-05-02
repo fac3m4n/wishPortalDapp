@@ -32,7 +32,7 @@ export default function App() {
   // if not signed in, return early with sign-in prompt
   if (!window.walletConnection.isSignedIn()) {
     return (
-      <main>
+      <main><br></br>
         <h1>Welcome to NearWish</h1>
         <p style={{ textAlign: 'center' }}>
           Click the button to make your wish come true:
