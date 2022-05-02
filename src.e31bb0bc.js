@@ -47142,7 +47142,7 @@ function App() {
   }, []); // if not signed in, return early with sign-in prompt
 
   if (!window.walletConnection.isSignedIn()) {
-    return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("h1", null, "Welcome to NearWish"), /*#__PURE__*/_react.default.createElement("p", {
+    return /*#__PURE__*/_react.default.createElement("main", null, /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("h1", null, "Welcome to NearWish"), /*#__PURE__*/_react.default.createElement("p", {
       style: {
         textAlign: 'center'
       }
@@ -47226,7 +47226,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43539" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43189" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
